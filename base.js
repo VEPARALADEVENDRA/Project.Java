@@ -81,3 +81,39 @@
         const subtract=(a,b)=>a-b;
 
         console.log(subtract(a,b));   */
+
+
+   /*     Question 10:
+            let a=Number(prompt("Enter the a"));
+            let b=Number(prompt("Enter the b"));        
+            let c=Number(prompt("Enter the c"));
+            const multiply=(a,b,c)=>a*b*c;
+            console.log(multiply(a,b,c));  */
+
+
+   /*     Question 11:
+        function applyTwice(num,callback){
+        console.log(callback(num))
+        
+    }
+
+    function twice(num){
+        return num*2;
+    }
+
+    applyTwice(5,twice)    */
+
+
+
+    /*    Question 12:
+        function applyTwice(num, callback) {
+            return callback(callback(num));
+        } 
+        function square(num) {
+            return num * num;
+        }
+        console.log(applyTwice(5, square));   */
+
+
+    Question 13:
+       
