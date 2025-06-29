@@ -115,5 +115,46 @@
         console.log(applyTwice(5, square));   */
 
 
-    Question 13:
-       
+    /*    Question 13:
+        function greet(name) {
+        return "Hello, " + name + "!";
+        }
+        let message = greet("Devendra");
+        console.log(message);  // Output: Hello, Devendra   */
+
+
+
+    /*    Question 14:
+        function countDown(n) {
+        if (n <= 0) return; // Base case: stop when n is 0 or negative
+        console.log(n);
+        countDown(n - 1);   // Recursive call with n - 1       
+    }   */
+
+
+       /*         Question 15:
+                function factorial(n) {
+            if (n === 0 || n === 1) {
+                return 1; // Base case: factorial of 0 or 1 is 1
+            } else {
+                return n * factorial(n - 1); // Recursive case
+            }
+        }
+        console.log(factorial(5));  // Output: 120
+        console.log(factorial(0));  // Output: 1     */
+
+
+        /*        Question 16:
+
+                function createGreeting(name) {
+            return function() {
+                return "Hello, " + name + "!";
+            };
+        }
+        const greetDevendra = createGreeting("Devendra");
+        console.log(greetDevendra());  // Output: Hello, Devendra!    */
+
+
+
+
+        
